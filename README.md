@@ -1,6 +1,6 @@
 # simple-migrate
 
-### A simple database migrate tool
+### A simple database migrate tool for flask
 
 This tool based on alembic to generate migration scripts and exec them,
 it works well in many cases, but I can't guarantee the generated scripts
