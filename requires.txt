@@ -1,2 +1,4 @@
 alembic>=0.8.7
+sqlalchemy>=1.0.9
+flask>=0.10.1
 flask-script>=2.0
