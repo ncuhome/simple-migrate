@@ -6,7 +6,7 @@ with open(join(dirname(__file__), 'requires.txt'), 'r') as f:
 
 setup(
     name="simple-migrate",
-    version="0.0.1",
+    version="0.0.2",
     description="A simple database migrate tool for flask",
     author="ncuhome",
     author_email="dev@ncuhome.cn",
@@ -14,6 +14,8 @@ setup(
     license="MIT",
     py_modules=['simple_migrate'],
     install_requires=install_requires,
+    include_package_data=True,
+    zip_safe=False,
     classifiers=[
         'Framework :: Flask',
         'Intended Audience :: Developers',
