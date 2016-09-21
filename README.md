@@ -11,7 +11,7 @@ is 100% reliable, please make sure backup your database before exec upgrade.
 
 ## Install
 
-    pip install simple-migrate
+    $ pip install simple-migrate
 
 
 ## Usage
